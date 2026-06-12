@@ -1,0 +1,27 @@
+# Environment variables - NEVER commit these
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Logs
+npm-debug.log*
+nodemon-debug.log*
+*.log
+
+# Editor
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/<
